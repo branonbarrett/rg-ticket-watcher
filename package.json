@@ -1,0 +1,23 @@
+{
+  "name": "rockygrass-ticket-alert",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./index.js",
+    "startmon": "nodemon ./index.js"
+  },
+  "author": "Branon Barrett <branonbarrett@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.24.0",
+    "cheerio": "0.22.0",
+    "cron": "1.2.1",
+    "express": "4.14.1",
+    "request": "2.79.0"
+  },
+  "devDependencies": {
+    "nodemon": "1.11.0"
+  }
+}
